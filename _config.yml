@@ -16,17 +16,14 @@ author:
   name   : "David León Fuentes"
   bio: "Your Bio"
   avatar : "https://avatars.githubusercontent.com/u/9919?s=110&v=4"
-  location: Localhost, GitHub
+  location: Málaga, España
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/"
+      url: "https://www.linkedin.com/in/david-le%C3%B3n-77797720b/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/"
+      url: "https://github.com/dxvidlf"
 
 # Social Sharing
 og_image: "https://avatars.githubusercontent.com/u/9919?s=110&v=4"
