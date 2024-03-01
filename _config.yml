@@ -3,17 +3,17 @@ markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # Site Settings
-title: "Site Template"
-subtitle: "Awesome Site Template"
-name: "Your Name"
+title: "Bienvenido"
+subtitle: "a mi blog personal"
+name: "David León Fuentes"
 description: "Your website description!"
-locale: "en-US"
+locale: "es-ES"
 breadcrumbs: true
 search: true
 
 # Site Author
 author:
-  name   : "Your Name"
+  name   : "David León Fuentes"
   bio: "Your Bio"
   avatar : "https://avatars.githubusercontent.com/u/9919?s=110&v=4"
   location: Localhost, GitHub
