@@ -18,6 +18,8 @@ author:
   bio: "Aprendiendo más cada día"
   avatar : "/assets/images/logo2.webp"
   location: Málaga, España
+  email: "davidleonfuentes21@gmail.com"
+  phone: "657066754"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
