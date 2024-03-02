@@ -71,9 +71,6 @@ defaults:
       header:
         overlay_image: "/assets/images/banner.webp"
         overlay_filter: 0.3
-        actions:
-          - label: "❤️ Become a Sponsor"
-            url: "https://github.com/sponsors/"
 
 category_archive:
   type: liquid
