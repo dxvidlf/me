@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: "Hola!"
+title: "Transformando ideas en innovación"
 ---
 
 ## GitHub Page Template
