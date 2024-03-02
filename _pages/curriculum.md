@@ -1,6 +1,6 @@
 ---
 title: "CV"
-permalink: /curriculum/
+permalink: /cv/
 ---
 
 # About You page example
