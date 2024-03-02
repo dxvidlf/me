@@ -69,7 +69,7 @@ defaults:
       author_profile: true
       classes: wide
       header:
-        overlay_image: "/assets/images/Mont-Blanc.webp"
+        overlay_image: "/assets/images/banner.webp"
         overlay_filter: 0.3
         actions:
           - label: "❤️ Become a Sponsor"
