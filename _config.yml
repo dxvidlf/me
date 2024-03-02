@@ -7,16 +7,16 @@ title: "Bienvenido"
 subtitle: "a mi blog personal"
 logo: "/assets/images/logo2.webp"
 name: "David León Fuentes"
-description: "Your website description!"
+description: "Transformando ideas en innovación"
 locale: "es-ES"
 breadcrumbs: true
-search: true
+search: false
 
 # Site Author
 author:
   name   : "David León Fuentes"
-  bio: "Your Bio"
-  avatar : "https://avatars.githubusercontent.com/u/9919?s=110&v=4"
+  bio: "Aprendiendo más cada día"
+  avatar : "/assets/images/logo2.webp"
   location: Málaga, España
   links:
     - label: "LinkedIn"
@@ -27,7 +27,7 @@ author:
       url: "https://github.com/dxvidlf"
 
 # Social Sharing
-og_image: "https://avatars.githubusercontent.com/u/9919?s=110&v=4"
+og_image: "/assets/images/logo2.webp"
 
 # Outputting
 permalink: /:categories/:title/
