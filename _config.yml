@@ -19,7 +19,6 @@ author:
   avatar : "/assets/images/logo2.webp"
   location: Málaga, España
   email: "davidleonfuentes21@gmail.com"
-  phone: "+34 123 456 789"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
