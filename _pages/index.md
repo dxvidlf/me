@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: "Something Awesome!"
+title: "Hola!"
 ---
 
 ## GitHub Page Template
