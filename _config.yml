@@ -32,7 +32,7 @@ og_image: "https://avatars.githubusercontent.com/u/9919?s=110&v=4"
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
-timezone: Europe/Paris
+timezone: Europe/Madrid
 atom_feed:
   hide: true
 
@@ -59,7 +59,7 @@ defaults:
       comments: true
       classes: wide
       header:
-        teaser: "/assets/images/Mont-Blanc.webp"
+        teaser: "/assets/images/banner.webp"
   # _pages
   - scope:
       path: "_pages"
