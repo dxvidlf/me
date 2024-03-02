@@ -70,7 +70,7 @@ defaults:
       classes: wide
       header:
         overlay_image: "/assets/images/banner.webp"
-        overlay_filter: 0.3
+        overlay_filter: 0.45
 
 category_archive:
   type: liquid
