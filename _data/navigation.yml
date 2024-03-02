@@ -1,7 +1,9 @@
 main:
-  - title: "Casa"
+  - title: "Home"
     url: /
-  - title: "Articles"
-    url: /categories/
-  - title: "About"
-    url: /about-your-name-here/
+  - title: "Sobre mí"
+    url: /aboutme/
+  - title: "Proyectos"
+    url: /projects/
+  - title: "CV"
+    url: /cv/
