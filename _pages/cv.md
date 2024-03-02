@@ -4,5 +4,5 @@ permalink: /cv/
 title: "CV"
 ---
 
-[Ver Curriculum](javascript:void(window.open('/assets/documents/cv.pdf', 'PDFViewer','width=600,height=800,scrollbars=yes')))
+<embed src="/assets/documents/cv.pdf" type="application/pdf" width="100%" height="600px" />
 
