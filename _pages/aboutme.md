@@ -1,6 +1,6 @@
 ---
 title: "About"
-permalink: /about-your-name-here/
+permalink: /aboutme/
 ---
 
 # About You page example
