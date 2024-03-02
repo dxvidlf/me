@@ -5,7 +5,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # Site Settings
 title: "Bienvenido"
 subtitle: "a mi blog personal"
-logo: "/assets/images/logo.webp"
+logo: "/assets/images/logo2.webp"
 name: "David León Fuentes"
 description: "Your website description!"
 locale: "es-ES"
