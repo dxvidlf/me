@@ -29,5 +29,11 @@
       <a href="{{ post.url | relative_url }}" rel="permalink"><img src="{{ teaser | relative_url }}" alt=""></a>
     </div>
     {% endif %}
+    
+    <!-- Información de contacto -->
+    <div class="contact-info">
+      <p>Email: {{ site.author.email }}</p>
+      <p>Teléfono: {{ site.author.phone }}</p>
+    </div>
   </article>
 </div>
