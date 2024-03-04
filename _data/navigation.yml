@@ -4,6 +4,6 @@ main:
   - title: "Sobre mí"
     url: /aboutme/
   - title: "Proyectos"
-    url: /projects/
+    url: /categories/
   - title: "CV"
     url: /cv/
