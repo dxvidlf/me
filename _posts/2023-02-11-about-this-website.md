@@ -4,7 +4,7 @@ excerpt: "Discover more about this site template."
 header:
   teaser: "/assets/images/iss-crossing-the-moon.webp"
 categories:
-  - Blog
+  - Proyecto
 ---
 
 ![ISS crossing the moon]({{ site.baseurl }}/assets/images/iss-crossing-the-moon.webp)
