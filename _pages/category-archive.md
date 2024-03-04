@@ -1,5 +1,5 @@
 ---
 title: "Proyectos"
 permalink: /categories/
-layout: proyectos
+layout: categories
 ---
