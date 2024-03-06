@@ -8,10 +8,7 @@
 
     // Define current theme based either on OS settings or User preferences
     if (currentTheme == null)
-        if (osDarkMode.matches == true)
-            currentTheme = "dark";
-        else
-            currentTheme = "light";
+        currentTheme = "dark"; // Establecer el tema "dark" por defecto
 
     function setTheme(theme) {
         sessionStorage.setItem("theme", theme);
