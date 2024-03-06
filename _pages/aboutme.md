@@ -10,9 +10,10 @@ permalink: /aboutme/
   }
   .container {
     width: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
     text-align: justify;
+    text-indent: 50px;
   }
 </style>
 
