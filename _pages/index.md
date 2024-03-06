@@ -10,6 +10,7 @@ title: "Transformando ideas en innovación"
         text-align: justify;
         text-indent: 50px;
         margin: 20px;
+        margin-left: 0;
     }
 </style>
 
