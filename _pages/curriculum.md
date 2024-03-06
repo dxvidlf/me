@@ -4,7 +4,7 @@ permalink: /cv/
 ---
 
 <div style="display: flex; justify-content: center;">
-  <img src="../../assets/images/bannerCV.webp" alt="banner" style="width: 100%; height: auto; margin: 30px;">
+  <img src="../assets/images/bannerCV.webp" alt="banner" style="width: 100%; height: auto; margin: 30px;">
 </div>
 
 Puede acceder a mi currículum haciendo click en el siguiente botón.
