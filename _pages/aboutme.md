@@ -27,7 +27,7 @@ permalink: /aboutme/
 
 # Mi experiencia en la universidad
 <div class="container">
-    <p>La universidad ha sido un trampolín que me ha permitido expandir mi caja de herramientas, dándome acceso a conocimientos y medios que han enriquecido mis proyectos personales. A través de esta experiencia, he desarrollado un interés particular en entender el funcionamiento interno de las industrias y empresas, su historia y los aprendizajes que puedo extraer de sus trayectorias. Viajar es otra de las formas en las que busco aprender, explorando cómo varían las perspectivas de vida y la tecnología en diferentes partes del mundo. Un viaje reciente a Suecia me abrió los ojos a lo avanzada que puede estar una sociedad en términos tecnológicos. De hecho, adjunto en este post algunas imágenes de ese viaje.</p>
+    <p>La universidad ha sido un trampolín que me ha permitido expandir mi caja de herramientas, dándome acceso a conocimientos y medios que han enriquecido mis proyectos personales. A través de esta experiencia, he desarrollado un interés particular en entender el funcionamiento interno de las industrias y empresas, su historia y los aprendizajes que puedo extraer de sus trayectorias. Viajar es otra de las formas en las que busco aprender, explorando cómo varían las perspectivas de vida y la tecnología en diferentes partes del mundo. Un viaje reciente a Suecia me abrió los ojos a lo avanzada que puede estar una sociedad en términos tecnológicos.</p>
 </div>
 # Mi perspectiva hacia el futuro
 <div class="container">
