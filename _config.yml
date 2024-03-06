@@ -5,7 +5,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # Site Settings
 title: "Bienvenido"
 subtitle: "a mi web personal"
-logo: "/assets/images/fotoperfil.png"
+logo: "/assets/images/logo2.webp"
 name: "David León Fuentes"
 description: "Transformando ideas en innovación"
 locale: "es-ES"
@@ -16,7 +16,7 @@ search: false
 author:
   name   : "David León Fuentes"
   bio: "Aprendiendo más cada día"
-  avatar : "/assets/images/logo2.webp"
+  avatar : "/assets/images/fotoperfil.png"
   location: Málaga, España
   email: "davidleonfuentes21@gmail.com"
   links:
