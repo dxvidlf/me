@@ -5,9 +5,10 @@ header:
   teaser: "/assets/images/domotizacion.jpeg"
 categories:
   - Proyecto
-youtubeId1: mXdExKBlVZQ
-youtubeId2: QwdJ_4FUWQU
-youtubeId3: 6ruWTDzpkmI
+youtubeId1: BiXpL_gcFss
+youtubeId2: vt2IA4Rqax4
+youtubeId3: MEl0prDx8tg
+
 ---
 
 <style>
@@ -48,80 +49,61 @@ youtubeId3: 6ruWTDzpkmI
 
 </style>
 
+<div style="display: flex; justify-content: center;">
+  <img src="../../assets/images/domotizacion.jpeg" alt="Imagen 2" style="width: 100%; height: auto; margin: 10px;">
+</div>
 
 # Objetivo
 
-El siguiente proyecto constituye la implementación de una cámara con un sistema de movimiento integrado, el cuál permite el giro de esta en el plano horizontal en 360 grados. Esta cámara ha sido destinada a dos objetivos principales:
+En la era digital actual, la conectividad y la automatización desempeñan un papel fundamental en la transformación de nuestros hogares en entornos inteligentes y seguros.  De este modo, este proyecto implementa un sistema de sensores inteligentes para la monitorización y actuación sobre diferentes elementos del hogar. Además, el sistema también incorpora una parte dedicada exclusivamente a la seguridad, tanto de cara a robos o allanamientos, implementando cámaras de seguridad, sensores de movimiento y alarmas, como también de cara a fugas de gas e incendios, añadiendo sensores de gas y humo.
 
-- Como cámara de seguridad para un sistema de domotización de una vivienda. Para acceder a dicho proyecto haga click en el siguiente botón.
+Para llevar a cabo dicho objetivo, se ha hecho uso de herramientas como NodeRed, DuckDNS, Docker, Portainer, NginxProxyManager y Arduino. Además, gracias al uso de estas herramientas se ha podido llevar a cabo una gestión segura de la red local para poder acceder al sistema sin necesidad de estar en casa. Esto ha sido posible gracias a la implantación de un servidor local propio instaurado en una Raspberry Pi 3b+.
 
-<div class="contenedor">
-  <button class="boton" onclick="window.open('https://dxvidlf.github.io/profile/proyecto/Domotizacion/', '_blank')">Ver proyecto de domotización</button>  
-</div>
-
-- Como sistema de visión en tiempo real para un robot móvil de cinemática diferencial. Para acceder a dicho proyecto haga click en el siguiente botón.
+El sistema de seguridad está compuesto principalmente por una cámara con un sistema de movimiento que permite la visualización del entorno en 360 grados. Debido a la extensión de la documentación de dicho dispositivo, se ha creado un post a parte al cual puede accederse haciendo click en el siguiente botón.
 
 <div class="contenedor">
-  <button class="boton" onclick="window.open('https://dxvidlf.github.io/profile/proyecto/Piero/', '_blank')">Ver proyecto de robot móvil</button>
+  <button class="boton" onclick="window.open('https://dxvidlf.github.io/me/proyecto/Camara/', '_blank')">Ver proyecto de cámara móvil</button>
 </div>
 
-Para controlar el sistema de movimiento de la cámara se pueden emplear tres medios:
-- Mando Wifi 
-- Chat de Telegram
-- Dashboard de NodeRed
-
-Este proyecto tan ambicioso ha sido desarrollado haciendo uso de tecnologías como diseño e impresión 3D, gestión de redes, programación en pseudo C (Arduino), entre otras. La explicación detallada de la creación de todo el proyecto puede encontrarse en mi perfil de github o haciendo click directamente en el siguiente botón.
+La documentación detallada de todo el proceso de creación del proyecto puede encontrarse en mi perfil de github o haciendo click directamente en el siguiente botón.
 
 <div class="contenedor">
-  <button class="boton" onclick="window.open('https://github.com/dxvidlf/Camara-para-Robot-Movil', '_blank')">Ver documentación completa del proyecto</button>
+  <button class="boton" onclick="window.open('https://github.com/dxvidlf/Sistema-de-domotizacion-y-seguridad-de-una-vivienda', '_blank')">Ver documentación completa del proyecto</button>
 </div>
 
+# Integración del sistema con Telegram
 
-## Control de la cámara mediante el mando Wifi
+Para la integración del sistema de domotización y seguridad con Telegram, se ha creado un bot denominado "Ultrahouse 3000", el cual gestionará todas nuestras peticiones a través de la aplicación y nos informará de los sucesos que acontecen en nuestra vivienda.
 
-El mando Wifi está compuesto principalmente por un par de joysticks y una ESP32 Wroom 32, la cual hace de puente de conexión entre la cámara y los comandos del joystick. El segundo joystick está destinado al control manual del movimiento del robot diferencial mencionado anteriormente. La traducción de movimientos del otro joytsick en comandos para la cámara es la siguiente: 
+<div style="display: flex; justify-content: center;">
+  <img src="../../assets/images/ultrahouse3000.png" alt="Imagen 2" style="width: 30%; height: auto; margin: 10px;">
+</div>
 
+Mediante una interfaz de usuario conformada por menús que se despliegan al interaccionar con los botones de los mensajes, podemos realizar una gran variedad de acciones, siendo estas las que aparecen en las siguientes imágenes.
 
-  
-| Movimiento | Comando |
-|-------------|---------|
-| Joystick hacia arriba | Activar/Desactivar el LED flash de la cámara |
-| Joystick hacia abajo | Llevar la cámara hacia su posición origen |
-| Joystick hacia la derecha | Girar cámara hacia la derecha|
-| Joystick hacia la izquierda | Girar cámara hacia la izquierda |
-| Click en el joystick | Hacer una foto y mandarla a Telegram  |
+<div style="display: flex; justify-content: center;">
+  <img src="../../assets/images/menus.png" alt="Imagen 2" style="width: 60%; height: auto; margin: 10px;">
+</div>
 
-
-En el siguiente video se puede ver la cámara moviéndose haciendo uso del mando Wifi. 
+La ejecución real del sistema en Telegram puede verse en el siguiente video, donde el usuario interacciona con el bot de Telegram requiriendo todas las opciones posibles que ofrecen los menús de acción de la parte de domótica y seguridad.
 
 <div class="video-container">
   {% include youtubePlayer.html id=page.youtubeId1 %}
 </div>
 
-## Control de la cámara mediante Telegram y NodeRed
+# Integración del sistema con NodeRed
 
-Para el control de la cámara mediante Telegram se ha creado un bot que nos ofrece un completo menú de acciones disponibles. En este sentido, Telegram y NodeRed funcionan al unísono, dado que la gestión de las peticiones realizadas al bot de Telegram son gestionadas mediante la lógica de un flujo implementado en NodeRed, el cual a su vez nos ofrece una completa interfaz de usuario donde podemos controlar por completo todo el sistema de la cámara. 
+NodeRed es una parte fundamental de este proyecto, dado que toda la lógica de funcionamiento que gestiona las peticiones y notificaciones al usuario son gestionadas a través de él. Además, su dashboard nos ofrece una amplia gama de opciones disponibles para configurar una interfaz de usuario amigable con la que interactuar. 
 
+En este proyecto se han desarrollado cuatro secciones en las que el usuario puede gestionar su vivienda, encontrándose en la última de ellas el video en directo de la cámara de seguridad y una serie de botones que permiten la interacción con el sistema de movimiento de la misma. El resto de secciones están destinadas al control de la domótica de la vivienda y la visualización de todos los datos guardados referentes a la misma. Dichos datos son gestionados mediante bases de datos conformadas en MondoDB, integrado a su vez en NodeRed.
 
-<div style="display: flex; justify-content: center;">
-  <img src="../../assets/images/menu.webp" alt="Imagen 2" style="width: 30%; height: auto; margin: 10px;">
-  <img src="../../assets/images/opciones.webp" alt="Imagen 1" style="width: 30%; height: auto; margin: 10px;">
-</div>
-
-Además, gracias al uso de MongoDB como base de datos, todas las fotos que tomemos se guardarán para que posteriormente podamos recuperarlas si lo precisamos. 
-
-<div style="display: flex; justify-content: center;">
-  <img src="../../assets/images/tomarfoto.png" alt="Imagen 2" style="width: 30%; height: auto; margin: 10px;">
-  <img src="../../assets/images/recuperarfoto.png" alt="Imagen 1" style="width: 30%; height: auto; margin: 10px;">
-</div>
-
-A continuación, se muestra la interfaz de usuario creada en las dashboard de NodeRed para poder controlar la cámara en el sistema de seguridad del proyecto de domotización.
+La ejecución real del sistema en NodeRed referente a las tres primeras secciones del mismo puede verse en el siguiente video.
 
 <div class="video-container">
   {% include youtubePlayer.html id=page.youtubeId2 %}
 </div>
 
-Por último, un pequeño video de la cámara incorporada al robot móvil, donde se puede ver simultáneamente la interfaz de Telegram desde donde se controla, la interfaz de NodeRed con el video en directo, y el video de la situación real en la grabación.
+La ejecución real del sistema en NodeRed referente a la sección de la cámara de seguridad puede verse en el siguiente video.
 
 <div class="video-container">
   {% include youtubePlayer.html id=page.youtubeId3 %}
