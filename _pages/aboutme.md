@@ -20,7 +20,7 @@ permalink: /aboutme/
 # Mis comienzos
 
 <div style="display: flex; justify-content: center;">
-  <img src="../../assets/images/bannerComienzos.webp" alt="banner1" style="width: 100%; height: auto; margin: 10px;">
+  <img src="../assets/images/bannerComienzos.webp" alt="banner1" style="width: 100%; height: auto; margin: 10px;">
 </div>
 
 <div class="container">
@@ -32,7 +32,7 @@ permalink: /aboutme/
 # Mi experiencia en la universidad
 
 <div style="display: flex; justify-content: center;">
-  <img src="../../assets/images/bannerUniversidad.webp" alt="banner2" style="width: 100%; height: auto; margin: 10px;">
+  <img src="../assets/images/bannerUniversidad.webp" alt="banner2" style="width: 100%; height: auto; margin: 10px;">
 </div>
 
 <div class="container">
@@ -42,7 +42,7 @@ permalink: /aboutme/
 # Mi perspectiva hacia el futuro
 
 <div style="display: flex; justify-content: center;">
-  <img src="../../assets/images/bannerFuturo.webp" alt="banner3" style="width: 100%; height: auto; margin: 10px;">
+  <img src="../assets/images/bannerFuturo.webp" alt="banner3" style="width: 100%; height: auto; margin: 10px;">
 </div>
 
 <div class="container">
